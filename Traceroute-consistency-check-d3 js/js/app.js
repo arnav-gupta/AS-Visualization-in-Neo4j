@@ -290,10 +290,10 @@ function MyGraph(el) {
         // Restart the force layout
         force
             //.gravity(0)
-            //.linkDistance(5) // Target length: Defaults to 20
+            .linkDistance(100) // Target length: Defaults to 20
             //.linkStrength() // Rigidity: Defaults to 1
             //.chargeDistance() // Defaults to Infinity
-            .charge(-2000)
+            .charge(-3000)
             .size([w, h])
             .start();
     };
